@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+h1, h2 {
+    margin: 2em;
+    font-family: "Lato", sans-serif;
+}
+
+h1:hover {
+    color: red; 
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.inner-content {
+    padding-left: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#campoTestuale {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
