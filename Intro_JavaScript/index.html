@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Intro</title>
+  </head>
+  <body>
+    <input type="number" />
+    <button onclick="stampa()">Stampa</button>
+    <div></div>
+
+    <script>
+      function stampa() {
+        let numero = document.querySelector("input").value;
+        let contenitore = document.querySelector("div");
+        contenitore.innerHTML = "";
+
+        if (numero < 1) {
+          contenitore.innerHTML = "Il numero deve essere maggiore di 0.";
+        } else {
+          for (i = 0; i < numero; i++) {
+            contenitore.innerHTML += "Sto stampando l'elemento: " + i + "<br>";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
